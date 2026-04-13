@@ -1,9 +1,9 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/docker-in-docker
 {
-	//"name": "Java 21 Dev Container",
-	//"image": "mcr.microsoft.com/devcontainers/java:21",
-	//"forwardPorts": [8080],
+	"name": "Java 21 Dev Container",
+	"image": "mcr.microsoft.com/devcontainers/java:21",
+	"forwardPorts": [8080],
 
     // Environment variables
         // Initialize command to create empty .env-vaadin if it doesn't exist
@@ -14,7 +14,8 @@
         "vscode": {
             "extensions": [
                     "vscjava.vscode-java-pack",
-					"vaadin.vaadin-vscode"
+					"vaadin.vaadin-vscode",
+                    "vscodevim.vim"
                 ],
         "settings": {
 				"java.configuration.updateBuildConfiguration": "automatic",
